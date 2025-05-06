@@ -1,0 +1,44 @@
+{
+  "name": "talescape",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.18.4",
+    "@heroicons/react": "^2.2.0",
+    "@heroui/button": "^2.2.19",
+    "@heroui/card": "^2.2.18",
+    "@heroui/dropdown": "^2.3.19",
+    "@heroui/modal": "^2.2.16",
+    "@heroui/navbar": "^2.2.17",
+    "@heroui/react": "^2.7.8",
+    "@heroui/spinner": "^2.2.16",
+    "@heroui/system": "^2.4.15",
+    "@heroui/theme": "^2.4.15",
+    "clerk": "^0.8.3",
+    "framer-motion": "^12.9.4",
+    "heroicons": "^2.2.0",
+    "heroui-cli": "^1.2.3",
+    "lucide-react": "^0.505.0",
+    "next": "15.3.1",
+    "postcss": "^8.5.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "react-pageflip": "^2.0.3",
+    "react-toastify": "^11.0.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4.1.5",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary: #D51565;
+  --secondary: #E13B80;
+  --third: #F05E9B;
+  --fourth: #FFB7D5;
+  --fifth: #CBEEF3;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --primary: #D51565;
+    --secondary: #E13B80;
+    --third: #F05E9B;
+    --fourth: #FFB7D5;
+    --fifth: #CBEEF3;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes scroll-x {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll-x {
+  animation: scroll-x 40s linear infinite;
+}
+
+/* Optional: You can define specific classes to use the custom properties */
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.bg-third {
+  background-color: var(--third);
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
+.text-secondary {
+  color: var(--secondary);
+}
+
+
+.border-primary {
+  border: 2px solid var(--primary);
+}
+
+.shadow-primary {
+  box-shadow: 0 4px 6px rgba(var(--primary), 0.1);
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(to right, var(--primary), var(--secondary));
+}
+
+.bg-primary-hover:hover {
+  background-color: var(--primary);
+}
+
+.bg-secondary-hover:hover {
+  background-color: var(--secondary);
+}
+
+.text-primary-hover:hover {
+  color: var(--primary);
+}
+
+.text-secondary-hover:hover {
+  color: var(--secondary);
+}
+
+.text-shadow-primary {
+  text-shadow: 2px 2px 4px var(--primary);
+}
+
+.bg-fourth {
+  background-color: var(--fourth);
+}
