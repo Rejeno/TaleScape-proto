@@ -158,8 +158,8 @@ const AboutUs: React.FC = () => {
                                 alt="Team with open book and rainbow"
                             />
                             <div className="bg-pink-100 ml-24">
-                                <p className="text-5xl text-black">Ethan Gabriel Consio</p>
-                                <p className="text-4xl text-black mt-2">"Tan"</p>
+                                <p className="text-5xl text-black">Jephone Israel Jireh Torre</p>
+                                <p className="text-4xl text-black mt-2">"Jeph"</p>
                                 <p className="text-3xl text-black mt-4">Full-Stack Developer</p>
                             </div>
                         </div>
@@ -168,7 +168,7 @@ const AboutUs: React.FC = () => {
                         <h2 className="text-5xl font-bold text-pink-600 mt-48">We Are Talescape</h2>
                         <img
                             className="mt-10"
-                            src="/Images/Taleboys3.png"
+                            src="/Images/Taleboys4.png"
                             alt="Team with open book and rainbow"
                         />
                     </div>
