@@ -5,12 +5,12 @@ const AboutUs: React.FC = () => {
 
     return (
         <div className="min-h-screen flex flex-col">
-            {/* Hero Section */}
-            <div className="w-full h-screen relative bg-cover bg-top" style={{ backgroundImage: 'url("/Images/hero-background.png")' }}>
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-                    <h1 className="text-6xl font-extrabold text-white tracking-tight">Welcome to TaleScape</h1>
-                </div>
-            </div>
+        {/* Hero Section */}
+        <div className="w-full h-screen relative bg-cover bg-top z-0" style={{ backgroundImage: 'url("/Images/hero-background.png")' }}> 
+        <div className="absolute inset-0 bg-black/50 flex justify-center items-center">
+            <h1 className="text-6xl font-extrabold text-white tracking-tight">Welcome to TaleScape</h1>
+          </div>
+        </div>
 
             {/* Main Content */}
             <div className="flex-grow">

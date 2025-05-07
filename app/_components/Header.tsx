@@ -41,7 +41,7 @@ function Header() {
             <NavbarContent>
                 <NavbarMenuToggle aria-label={isMenuOpen ? "Close Menu" : "Open Menu"} className="sm:hidden" />
                 <NavbarBrand className= "ml-7">
-                    <Image src="/Images/newlogo.png" height={80} width={100} alt="New Logo" />
+                    <Image src="/Images/logo5.png" height={80} width={100} alt="New Logo" />
                     <h2 className="font-bold text-4xl text-[#E13B80] ml-2">TaleScape</h2>
                 </NavbarBrand>
             </NavbarContent>

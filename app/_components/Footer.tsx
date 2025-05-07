@@ -9,7 +9,7 @@ function Footer() {
         <div className="flex items-center space-x-4 ">
           {/* Logo */}
           <img
-            src="/Images/newlogo.png" // Replace with the actual path to your logo
+            src="/Images/olo.png" // Replace with the actual path to your logo
             alt="TaleScape Logo"
             className="h-24 w-auto" // Adjust size as needed
           />
