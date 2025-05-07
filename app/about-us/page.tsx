@@ -20,9 +20,9 @@ const AboutUs: React.FC = () => {
                         <h1 className="text-6xl font-extrabold text-pink-600 mb-8 tracking-tight">About Us</h1>
                         <div className="flex justify-center items-center gap-16">
                             <img
-                                src="/Images/newlogo.png"
+                                src="/Images/logo5.png"
                                 alt="TaleScape Logo"
-                                className="h-30 w-auto"
+                                className="h-30 w-auto mb-5"
                             />
                         </div>
                         <p className="text-xl text-black leading-relaxed">
