@@ -98,7 +98,7 @@ function Footer() {
             <input
               type="email"
               placeholder="Enter your email"
-              className="px-4 py-2 rounded-lg text-gray-700"
+              className="px-4 py-2 border border-third rounded-lg text-white"
             />
             <button
               type="submit"
@@ -112,7 +112,7 @@ function Footer() {
 
       {/* Bottom Footer */}
       <div className="mt-10 border-t border-fourth pt-4 flex flex-col lg:flex-row justify-between items-center">
-        <p className="text-sm text-white ">&copy; 2024 TaleScape. All Rights Reserved.</p>
+        <p className="text-sm text-white ">&copy; 2025 TaleScape. All Rights Reserved.</p>
         <div className="flex space-x-6 text-sm">
           <a href="/privacy" className="hover:text-fourth transition">
             Privacy Policy

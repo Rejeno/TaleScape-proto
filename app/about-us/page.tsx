@@ -5,12 +5,12 @@ const AboutUs: React.FC = () => {
 
     return (
         <div className="min-h-screen flex flex-col">
-        {/* Hero Section */}
-        <div className="w-full h-screen relative bg-cover bg-top z-0" style={{ backgroundImage: 'url("/Images/hero-background.png")' }}> 
-        <div className="absolute inset-0 bg-black/50 flex justify-center items-center">
-            <h1 className="text-6xl font-extrabold text-white tracking-tight">Welcome to TaleScape</h1>
-          </div>
-        </div>
+            {/* Hero Section */}
+            <div className="w-full h-screen relative bg-cover bg-top z-0" style={{ backgroundImage: 'url("/Images/hero-background.png")' }}>
+                <div className="absolute inset-0 bg-black/50 flex justify-center items-center">
+                    <h1 className="text-6xl font-extrabold text-white tracking-tight">Welcome to TaleScape</h1>
+                </div>
+            </div>
 
             {/* Main Content */}
             <div className="flex-grow">
@@ -66,7 +66,7 @@ const AboutUs: React.FC = () => {
                     <div className="max-w-5xl mx-auto px-8">
                         <h2 className="text-5xl font-bold text-pink-600 mb-8 text-center">Technologies We Use</h2>
                         <div className="relative h-32 overflow-hidden">
-                            <div className="flex gap-6 animate-scroll whitespace-nowrap">
+                            <div className="flex gap-6 animate-scroll-x whitespace-nowrap">
                                 <img src="/Tools/react-banner.png" alt="React" className="h-20" />
                                 <img src="/Tools/tailwind.jpg" alt="Tailwind CSS" className="h-20" />
                                 <img src="/Tools/drizzle.png" alt="Tailwind CSS" className="h-28 pb-6" />
