@@ -35,12 +35,12 @@ function Header() {
     return (
         <Navbar
             maxWidth="full"
-            className={`bg-pink-100 p-2 transition-shadow fixed top-0 left-0 w-full z-50 duration-300 ${isScrolled ? 'shadow-lg' : ''}`}
+            className={`bg-pink-200 p-4 transition-shadow fixed top-0 left-0 w-full z-50 duration-300 ${isScrolled ? 'shadow-lg' : ''}`}
             onMenuOpenChange={setIsMenuOpen}
         >
             <NavbarContent>
                 <NavbarMenuToggle aria-label={isMenuOpen ? "Close Menu" : "Open Menu"} className="sm:hidden" />
-                <NavbarBrand className= "ml-7">
+                <NavbarBrand className="ml-7">
                     <Image src="/Images/logo5.png" height={80} width={100} alt="New Logo" />
                     <h2 className="font-bold text-4xl text-[#E13B80] ml-2">TaleScape</h2>
                 </NavbarBrand>
@@ -56,16 +56,16 @@ function Header() {
 
             <NavbarContent className=" pl-36">
                 <Link href="/create_story">
-                <Button
-                size="lg"
-                className="hidden sm:flex items-center justify-center p-2 text-md mr-2 rounded-lg
+                    <Button
+                        size="lg"
+                        className="hidden sm:flex items-center justify-center p-2 text-md mr-2 rounded-lg
                             bg-secondary text-gray-100
                             hover:bg-primary-hover
                             transition-colors duration-300 ease-in-out
                             cursor-pointer"
-                >
-                {isSignedIn ? 'Create Story' : 'Get Started'}
-                </Button>
+                    >
+                        {isSignedIn ? 'Create Story' : 'Get Started'}
+                    </Button>
                 </Link>
                 {isSignedIn && (
                     <div className="scale-150 border-4 border-[#E13B80] rounded-full flex items-center justify-center ml-1">

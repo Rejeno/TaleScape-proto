@@ -6,7 +6,7 @@ import Link from "next/link";
 
 function Hero() {
     return (
-        <div className="bg-pink-100 px-4 h-screen">
+        <div className="bg-pink-200 px-4 h-screen">
             <div className="grid grid-cols-1 md:grid-cols-2">
                 <div className="pt-16 mt-10 ml-20">
                     <h3 className="text-[80px] text-[#E13B80] font-bold">
@@ -17,7 +17,7 @@ function Hero() {
                     </p>
                     <div className="mt-5">
                         <Link href={'/dashboard'}>
-                            <Button size="lg" className="bg-secondary text-gray-100 text-xl font-medium rounded-lg p-2">
+                            <Button size="lg" className="bg-secondary text-gray-100 text-xl font-medium rounded-lg p-2 cursor-pointer">
                                 Create Story
                             </Button>
                         </Link>
