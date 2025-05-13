@@ -35,14 +35,14 @@ function Header() {
     return (
         <Navbar
             maxWidth="full"
-            className={`bg-pink-200 p-4 transition-shadow fixed top-0 left-0 w-full z-50 duration-300 ${isScrolled ? 'shadow-lg' : ''}`}
+            className={`bg-pink-200 p-6 transition-shadow fixed  w-full z-50 duration-300 ${isScrolled ? 'shadow-lg' : ''}`}
             onMenuOpenChange={setIsMenuOpen}
         >
             <NavbarContent>
                 <NavbarMenuToggle aria-label={isMenuOpen ? "Close Menu" : "Open Menu"} className="sm:hidden" />
                 <NavbarBrand className="ml-7">
-                    <Image src="/Images/logo5.png" height={80} width={100} alt="New Logo" />
-                    <h2 className="font-bold text-4xl text-[#E13B80] ml-2">TaleScape</h2>
+                    <Image src="/Images/logo5.png" height={80} width={80} alt="New Logo" />
+                    <h2 className="font-bold text-2xl text-[#E13B80] ml-2">TaleScape</h2>
                 </NavbarBrand>
             </NavbarContent>
 

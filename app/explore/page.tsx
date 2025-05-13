@@ -71,12 +71,12 @@ export default function ExplorePage() {
     return (
         <div>
             <main className="min-h-screen bg-pink-100 text-gray-800 px-4 py-6 pb-22">
-                <h2 className="text-2xl font-bold text-center text-secondary mb-4">Explore More Stories</h2>
-
+                <h2 className="text-4xl font-bold text-center text-primary">Explore More Stories</h2>
+                <p className="text-xl text-black mt-2 mb-4 text-center">Search to explore more stories</p>
                 <div className="flex justify-center mb-6">
                     <input
                         type="text"
-                        placeholder="Search for stories..."
+                        placeholder=" Search for stories... "
                         value={search}
                         onChange={(e) => setSearch(e.target.value)}
                         className="w-full max-w-lg p-2 rounded-full border border-pink-500"

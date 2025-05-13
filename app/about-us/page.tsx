@@ -105,7 +105,7 @@ const AboutUs: React.FC = () => {
                             <div className="bg-pink-100 ml-32 -mt-2">
                                 <p className="text-5xl text-black">Rhazel Jay Gumacal</p>
                                 <p className="text-4xl text-black mt-2 ">"Rhaz"</p>
-                                <p className="text-3xl text-black mt-4">Team Leader / Front-End Developer</p>
+                                <p className="text-2xl text-gray-800 mt-4">Team Leader / Front-End Developer</p>
                             </div>
                         </div>
                         {/* {Developer2} */}
@@ -113,7 +113,7 @@ const AboutUs: React.FC = () => {
                             <div className="bg-pink-100 mr-20">
                                 <p className="text-5xl text-black">Regino Balogo Jr.</p>
                                 <p className="text-4xl text-black mt-2">"Reg"</p>
-                                <p className="text-3xl text-black mt-4">Project Manager / Full-Stack Developer / Quality Assurance</p>
+                                <p className="text-2xl text-gray-800 mt-4">Project Manager / Full-Stack Developer / Quality Assurance</p>
                             </div>
                             <img
                                 className="bg-transparent"
@@ -132,7 +132,7 @@ const AboutUs: React.FC = () => {
                             <div className="bg-pink-100 ml-32">
                                 <p className="text-5xl text-black">Lemmuel Dave Dañosos</p>
                                 <p className="text-4xl text-black mt-2">"Lem"</p>
-                                <p className="text-3xl text-black mt-4">Graphic Designer / Front-End Developer / Documentator</p>
+                                <p className="text-2xl text-gray-800 mt-4">Graphic Designer / Front-End Developer / Documentator</p>
                             </div>
                         </div>
                         {/* {Developer4} */}
@@ -140,7 +140,7 @@ const AboutUs: React.FC = () => {
                             <div className="bg-pink-100 mr-16">
                                 <p className="text-5xl text-black">Christian Angelo Panique</p>
                                 <p className="text-4xl text-black mt-2">"Tian"</p>
-                                <p className="text-3xl text-black mt-4">Documentator</p>
+                                <p className="text-2xl text-gray-800 mt-4">Documentator</p>
                             </div>
                             <img
                                 className="bg-transparent"
@@ -160,12 +160,12 @@ const AboutUs: React.FC = () => {
                             <div className="bg-pink-100 ml-24">
                                 <p className="text-5xl text-black">Jephone Israel Jireh Torre</p>
                                 <p className="text-4xl text-black mt-2">"Jeph"</p>
-                                <p className="text-3xl text-black mt-4">Full-Stack Developer</p>
+                                <p className="text-2xl text-gray-800 mt-4">Full-Stack Developer</p>
                             </div>
                         </div>
 
                         {/* {Talescape Boys} */}
-                        <h2 className="text-5xl font-bold text-pink-600 mt-48">We Are Talescape</h2>
+                        <h2 className="text-6xl font-bold text-pink-600 my-48">We Are Talescape</h2>
                         <img
                             className="mt-10"
                             src="/Images/Taleboys4.png"

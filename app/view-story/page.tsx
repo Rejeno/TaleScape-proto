@@ -46,7 +46,7 @@ const PageCover = React.forwardRef<HTMLDivElement, any>((props, ref) => {
       <div className="w-full h-full relative flex flex-col justify-end">
         <div className="absolute top-0 left-0 w-full h-full z-10">
           {props.coverImage && (
-            <Image 
+            <Image
               src={props.coverImage}
               alt="Story Cover"
               fill
@@ -73,10 +73,10 @@ const Page = React.forwardRef<HTMLDivElement, any>((props, ref) => {
       <div className="p-8 h-full relative flex flex-col">
         {props.imageUrl && (
           <div className="mb-6 text-center">
-            <Image 
-              src={props.imageUrl} 
-              alt="Page illustration" 
-              width={300} 
+            <Image
+              src={props.imageUrl}
+              alt="Page illustration"
+              width={300}
               height={200}
               className="mx-auto"
             />
@@ -125,7 +125,7 @@ export default function StoryViewer() {
       setCurrentPage(bookRef.current.pageFlip().getCurrentPageIndex());
     }
   };
-  
+
   // Listen for page changes from the flip book component
   const onFlip = (e: any) => {
     setCurrentPage(e.data);
@@ -177,18 +177,18 @@ export default function StoryViewer() {
         onFlip={onFlip}
       >
         {/* Front Cover */}
-        <PageCover 
-          title={story.title} 
-          author={story.author} 
+        <PageCover
+          title={story.title}
+          author={story.author}
           coverImage={story.coverImage}
         />
 
         {/* Story Pages */}
         {story.pages.map((page, index) => (
-          <Page 
-            key={index} 
-            content={page.content} 
-            imageUrl={page.imageUrl} 
+          <Page
+            key={index}
+            content={page.content}
+            imageUrl={page.imageUrl}
             number={index + 1}
           />
         ))}
@@ -196,7 +196,7 @@ export default function StoryViewer() {
         {/* Back Cover */}
         <PageCover />
       </HTMLFlipBook>
-      
+
       {/* Navigation Arrows */}
       {/* Next Button: Hide on last page */}
       {currentPage < totalPages - 1 && (
