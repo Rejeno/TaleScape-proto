@@ -35,7 +35,7 @@ function Header() {
     return (
         <Navbar
             maxWidth="full"
-            className={`bg-pink-200 p-6 transition-shadow fixed  w-full z-50 duration-300 ${isScrolled ? 'shadow-lg' : ''}`}
+            className={`bg-pink-200 p-2 transition-shadow fixed  w-full z-50 duration-300 ${isScrolled ? 'shadow-lg' : ''}`}
             onMenuOpenChange={setIsMenuOpen}
         >
             <NavbarContent>

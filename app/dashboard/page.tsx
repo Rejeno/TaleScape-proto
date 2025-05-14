@@ -1,5 +1,5 @@
 "use client";
-import router, { useRouter } from 'next/router';
+import router from 'next/router';
 
 import Image from 'next/image';
 import { useState } from 'react';
@@ -55,7 +55,7 @@ export default function CreateStoryPage() {
     const [selectedLanguage, setLanguage] = useState(0);
 
     return (
-        <div className="p-6 bg-pink-200 min-h-screen">
+        <div className="p-6 bg-pink-200 min-h-screen -mt-6">
             <h1 className="text-4xl font-bold text-center text-pink-700 mb-2">Create Your Own Story</h1>
             <p className="text-center text-lg text-pink-800 mb-6">Bring your idea into a story with AI</p>
             <div className='mx-[4%]'>
