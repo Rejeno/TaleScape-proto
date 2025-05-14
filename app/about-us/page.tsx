@@ -106,6 +106,14 @@ const AboutUs: React.FC = () => {
                                 <p className="text-5xl text-black">Rhazel Jay Gumacal</p>
                                 <p className="text-4xl text-black mt-2 ">"Rhaz"</p>
                                 <p className="text-2xl text-gray-800 mt-4">Team Leader / Front-End Developer</p>
+                                <a
+                                    href="https://your-portfolio-link.com"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-2xl text-gray-800 mt-4 block hover:underline"
+                                >
+                                SEE PORTFOLIO
+                                </a>
                             </div>
                         </div>
                         {/* {Developer2} */}
@@ -114,6 +122,14 @@ const AboutUs: React.FC = () => {
                                 <p className="text-5xl text-black">Regino Balogo Jr.</p>
                                 <p className="text-4xl text-black mt-2">"Reg"</p>
                                 <p className="text-2xl text-gray-800 mt-4">Project Manager / Full-Stack Developer / Quality Assurance</p>
+                                <a
+                                    href="https://your-portfolio-link.com"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-2xl text-gray-800 mt-4 block hover:underline"
+                                >
+                                SEE PORTFOLIO
+                                </a>
                             </div>
                             <img
                                 className="bg-transparent"
@@ -133,6 +149,14 @@ const AboutUs: React.FC = () => {
                                 <p className="text-5xl text-black">Lemmuel Dave Dañosos</p>
                                 <p className="text-4xl text-black mt-2">"Lem"</p>
                                 <p className="text-2xl text-gray-800 mt-4">Graphic Designer / Front-End Developer / Documentator</p>
+                                <a
+                                    href="https://your-portfolio-link.com"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-2xl text-gray-800 mt-4 block hover:underline"
+                                >
+                                SEE PORTFOLIO
+                                </a>
                             </div>
                         </div>
                         {/* {Developer4} */}
@@ -141,6 +165,14 @@ const AboutUs: React.FC = () => {
                                 <p className="text-5xl text-black">Christian Angelo Panique</p>
                                 <p className="text-4xl text-black mt-2">"Tian"</p>
                                 <p className="text-2xl text-gray-800 mt-4">Documentator</p>
+                                <a
+                                    href="https://your-portfolio-link.com"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-2xl text-gray-800 mt-4 block hover:underline"
+                                >
+                                SEE PORTFOLIO
+                                </a>
                             </div>
                             <img
                                 className="bg-transparent"
@@ -161,6 +193,14 @@ const AboutUs: React.FC = () => {
                                 <p className="text-5xl text-black">Jephone Israel Jireh Torre</p>
                                 <p className="text-4xl text-black mt-2">"Jeph"</p>
                                 <p className="text-2xl text-gray-800 mt-4">Full-Stack Developer</p>
+                                <a
+                                    href="https://your-portfolio-link.com"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-2xl text-gray-800 mt-4 block hover:underline"
+                                >
+                                SEE PORTFOLIO
+                                </a>
                             </div>
                         </div>
 
