@@ -33,17 +33,17 @@ function CustomerFeedback() {
   ];
 
   return (
-    <section className="bg-white py-16 px-6 lg:px-20 h-screen">
-      <h2 className="text-4xl font-bold text-primary text-center mb-4 -mt-6">
+    <section className="bg-white py-10 md:py-16 lg:py-20 px-6 lg:px-20">
+      <h2 className="text-3xl md:text-4xl font-bold text-primary text-center mb-4 -mt-6">
         What People Love About Us
       </h2>
-      <p className="text-xl text-black text-center">
+      <p className="text-lg md:text-xl text-black text-center">
         Discover heartfelt testimonials from parents, carers or educators
       </p>
-      <p className="text-xl text-black text-center mb-12">
+      <p className="text-lg md:text-xl text-black text-center mb-12">
         who have experienced the magic of reading with Talescapes personalised storytelling
       </p>
-      <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-2">
+      <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-2 container mx-auto">
         {feedbacks.map(({ name, avatar, feedback, relation }, index) => (
           <div
             key={index}

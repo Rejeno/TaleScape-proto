@@ -16,12 +16,12 @@ function Carousel() {
   ];
 
   return (
-    <div className="overflow-hidden w-full bg-pink-100 h-screen">
+    <div className="overflow-hidden w-full bg-pink-100 py-10 md:py-16 lg:py-20">
         <div className="p-2 mb-4 mt-10">
-            <h4 className="text-primary font-semibold text-center text-4xl">
+            <h4 className="text-primary font-semibold text-center text-3xl md:text-4xl">
                 Explore Various Stories
             </h4>
-            <p className="text-black text-center text-xl p-2">
+            <p className="text-black text-center text-lg md:text-xl p-2">
                 These are stories created with the magic of TaleScape
             </p>
         </div>
@@ -30,7 +30,7 @@ function Carousel() {
         {[...images, ...images].map((src, index) => (
           <div
             key={index}
-            className="flex-shrink-0 bg-pink-100 w-[300px] h-[300px] relative" // Increased size
+            className="flex-shrink-0 bg-pink-100 w-[250px] h-[250px] md:w-[300px] md:h-[300px] relative" // Increased size and made responsive
           >
             {/* Image is now inside a container with increased size */}
             <Image

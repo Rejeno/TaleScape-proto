@@ -1,17 +1,17 @@
 
 export default function Home() {
     return (
-        <div className=" bg-pink-100 text-center pt-12 pb-20 px-4">
+        <div className="bg-pink-100 text-center py-10 md:py-16 lg:py-20 px-4">
             {/* Header */}
             <header className="mb-10">
-                <h1 className="text-4xl font-bold text-pink-600">Craft Your Magical Adventures</h1>
-                <p className="text-2xl text-black mt-2">with Talescape</p>
+                <h1 className="text-3xl md:text-4xl font-bold text-pink-600">Craft Your Magical Adventures</h1>
+                <p className="text-xl md:text-2xl text-black mt-2">with Talescape</p>
             </header>
 
             {/* Steps Section */}
-            <section className="flex flex-row justify-center gap-8">
+            <section className="flex flex-col md:flex-row justify-center gap-8 container mx-auto">
                 {/* 1 */}
-                <div className="bg-white shadow-md w-full max-w-md rounded-2xl hover:scale-105 transform transition duration-300">
+                <div className="bg-white shadow-md w-full max-w-sm mx-auto rounded-2xl hover:scale-105 transform transition duration-300">
                     <div className="w-full h-48 overflow-hidden rounded-t-2xl">
                         <img
                             src="/Images/craft-story.png"
@@ -25,9 +25,9 @@ export default function Home() {
                     </p>
                 </div>
 
-                <div className="flex gap-8 w-full max-w-4xl">
+                <div className="flex flex-col md:flex-row gap-8 w-full max-w-4xl mx-auto">
                     {/* 2 */}
-                    <div className="bg-white shadow-md max-w-md rounded-2xl hover:scale-105 transform transition duration-300">
+                    <div className="bg-white shadow-md w-full max-w-sm mx-auto rounded-2xl hover:scale-105 transform transition duration-300">
                         <div className="w-full h-48 overflow-hidden rounded-t-2xl">
                             <img
                                 src="/Images/story-spark2.png"
@@ -42,7 +42,7 @@ export default function Home() {
                     </div>
 
                     {/* 3 */}
-                    <div className="bg-white shadow-md max-w-md rounded-2xl hover:scale-105 transform transition duration-300">
+                    <div className="bg-white shadow-md w-full max-w-sm mx-auto rounded-2xl hover:scale-105 transform transition duration-300">
                         <div className="w-full h-48 overflow-hidden rounded-t-2xl">
                             <img
                                 src="/Images/story-journey2.png"

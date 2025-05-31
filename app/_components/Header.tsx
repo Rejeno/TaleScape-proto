@@ -35,30 +35,30 @@ function Header() {
     return (
         <Navbar
             maxWidth="full"
-            className={`bg-pink-200 p-2 transition-shadow fixed  w-full z-50 duration-300 ${isScrolled ? 'shadow-lg' : ''}`}
+            className={`bg-pink-200 p-2 transition-shadow fixed w-full z-50 duration-300 ${isScrolled ? 'shadow-lg' : ''}`}
             onMenuOpenChange={setIsMenuOpen}
         >
             <NavbarContent>
                 <NavbarMenuToggle aria-label={isMenuOpen ? "Close Menu" : "Open Menu"} className="sm:hidden" />
-                <NavbarBrand className="ml-7">
-                    <Image src="/Images/logo5.png" height={80} width={80} alt="New Logo" />
-                    <h2 className="font-bold text-2xl text-[#E13B80] ml-2">TaleScape</h2>
+                <NavbarBrand className="ml-4 md:ml-7">
+                    <Image src="/Images/logo5.png" height={60} width={60} alt="New Logo" />
+                    <h2 className="font-bold text-xl md:text-2xl text-[#E13B80] ml-2">TaleScape</h2>
                 </NavbarBrand>
             </NavbarContent>
 
-            <NavbarContent className="pl-56 hidden sm:flex">
+            <NavbarContent className="hidden sm:flex flex-grow justify-center">
                 {MenuList.map((item, index) => (
-                    <NavbarItem key={index} className="text-xl text-black font-medium hover:text-[#D51565] hover:scale-110 p-2">
+                    <NavbarItem key={index} className="text-md md:text-xl text-black font-medium hover:text-[#D51565] hover:scale-110 p-2">
                         <Link href={item.path}>{item.name}</Link>
                     </NavbarItem>
                 ))}
             </NavbarContent>
 
-            <NavbarContent className=" pl-36">
+            <NavbarContent className="flex justify-end">
                 <Link href="/create_story">
                     <Button
-                        size="lg"
-                        className="hidden sm:flex items-center justify-center p-2 text-md mr-2 rounded-lg
+                        size="md"
+                        className="hidden sm:flex items-center justify-center p-2 text-sm md:text-md mr-2 rounded-lg
                             bg-secondary text-gray-100
                             hover:bg-primary-hover
                             transition-colors duration-300 ease-in-out
@@ -68,7 +68,7 @@ function Header() {
                     </Button>
                 </Link>
                 {isSignedIn && (
-                    <div className="scale-150 border-4 border-[#E13B80] rounded-full flex items-center justify-center ml-1">
+                    <div className="scale-100 md:scale-150 border-2 md:border-4 border-[#E13B80] rounded-full flex items-center justify-center ml-1">
                         <UserButton />
                     </div>
                 )}

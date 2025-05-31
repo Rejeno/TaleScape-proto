@@ -37,21 +37,21 @@ function FAQSection() {
   ];
 
   return (
-    <section className="bg-pink-100 py-16 px-6 lg:px-20 flex flex-col lg:flex-row gap-10 h-screen">
+    <section className="bg-pink-100 py-10 md:py-16 lg:py-20 px-6 lg:px-20 flex flex-col lg:flex-row gap-10">
       {/* Left Image Section */}
-      <div className="flex-shrink-0 w-full lg:w-1/3 mt-6">
+      <div className="flex-shrink-0 w-full lg:w-1/3 mt-6 flex justify-center lg:justify-start">
         <Image
           src="/Images/question.gif"
           alt="FAQs Illustration"
-          width={400}
-          height={400}
+          width={300}
+          height={300}
           className="rounded-lg object-cover"
         />
       </div>
 
       {/* FAQs Section */}
       <div className="w-full lg:w-2/3 mt-12">
-        <h2 className="text-4xl font-bold text-primary mb-8 text-center lg:text-left">
+        <h2 className="text-3xl md:text-4xl font-bold text-primary mb-8 text-center lg:text-left">
           Frequently Asked Questions
         </h2>
         <div className="space-y-4">
